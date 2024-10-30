@@ -20,3 +20,9 @@ VignetteBuilder: knitr
 Suggests: 
     knitr,
     rmarkdown
+Imports: 
+    Rcpp, 
+    RcppArmadillo
+LinkingTo:
+    Rcpp, 
+    RcppArmadillo    
